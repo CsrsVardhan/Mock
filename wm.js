@@ -3,7 +3,7 @@ var h3 = document.querySelector("h3");
 var add = (a,b)=> Math.floor(a+b);
 var sub = (a,b)=> Math.floor(a-b);
 var mul = (a,b)=> Math.floor(a*b);
-var div = (a,b)=> Math.floor(a/b);
+var div = (a,b)=> a/b;
 button.addEventListener("click",()=>{
     var val1 = Number.parseInt(document.getElementById("val1").value);
     var val2 = Number.parseInt(document.getElementById("val2").value);
